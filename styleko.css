@@ -1,0 +1,132 @@
+
+span {
+    text-align: center;
+    font-size: 150px;
+    text-shadow: 0 0 5px black;
+}
+
+h5 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h4 {
+    float: right;
+    width: 95%;
+}
+
+p {
+    text-align: justify;
+    font-size: 50px;
+    font-style: italic;
+    color: red;
+    margin-top: -60px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+span1 {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+span2 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 5px black;
+}
+
+li a {
+    display: block;
+    color: red;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+li a:active {
+    background-color: lightskyblue;
+}
+
+@media screen and (max-width: 480px) {
+    span {
+        font-size: 80px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 24px;
+        margin-top: -30px; 
+    }
+
+    ul {
+        font-size: 1em;
+    }
+
+    span2 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    span {
+        font-size: 100px;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 30px;
+        margin-top: -45px; 
+    }
+
+    ul {
+        font-size: 1.2em;
+    }
+
+    span2 {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    span {
+        font-size: 150px;
+    }
+
+    h5 {
+        font-size: 8px;
+    }
+
+    p {
+        font-size: 50px;
+        margin-top: -60px;
+    }
+
+    ul {
+        font-size: 1.5em;
+    }
+
+    span2 {
+        font-size: 40px;
+    }
+}
